@@ -265,7 +265,7 @@ hr{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: conic-gradient(#ff0707 0% 90%, #fff 85% 100%);
+    background: conic-gradient(#FFC107 0% 90%, #fff 85% 100%);
   }
 
   .outer-circle3 {
@@ -273,7 +273,7 @@ hr{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: conic-gradient(#5aff07 0% 80%, #fff 85% 100%);
+    background: conic-gradient(#FFC107 0% 80%, #fff 85% 100%);
   }
 
   .outer-circle4 {
@@ -281,7 +281,7 @@ hr{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: conic-gradient(#0730ff 0% 90%, #fff 85% 100%);
+    background: conic-gradient(#FFC107 0% 90%, #fff 85% 100%);
   }
 
   .outer-circle5 {
@@ -289,7 +289,7 @@ hr{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: conic-gradient(#ff3907 0% 95%, #fff 85% 100%);
+    background: conic-gradient(#FFC107 0% 95%, #fff 85% 100%);
   }
 
   .outer-circle6 {
@@ -297,7 +297,7 @@ hr{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: conic-gradient(#07ffee 0% 75%, #fff 85% 100%);
+    background: conic-gradient(#FFC107 0% 75%, #fff 85% 100%);
   }
 
   .outer-circle7 {
@@ -305,7 +305,23 @@ hr{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: conic-gradient(#e607ff 0% 80%, #fff 85% 100%);
+    background: conic-gradient(#FFC107 0% 80%, #fff 85% 100%);
+  }
+
+  .outer-circle8 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#FFC107 0% 80%, #fff 85% 100%);
+  }
+
+  .outer-circle9 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#FFC107 0% 80%, #fff 85% 100%);
   }
 
   .inner-circle {
