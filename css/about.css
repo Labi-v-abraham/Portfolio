@@ -55,6 +55,7 @@ body {
     color: rgba(255, 255, 255, 0.1);
     z-index: 1;
 }
+/* Personal info */
 
 .personal-info, .stats {
     /* display: flex; */
@@ -152,7 +153,9 @@ body {
     letter-spacing: 1px;
 }
 
-/* Social Media Links */
+/* END */
+
+/* Navbar */
 .navbar {
     position: fixed;
     right: 0;
@@ -209,10 +212,11 @@ body {
 .nav-item:hover .icon {
     color: #ffcc00;
 }
+/* END */
 
 hr{
     border-top-width: 1px;
-    border-top-color: rgb(37, 37, 37);
+    border-top-color: rgb(89, 88, 88);
     border-bottom-width: 0px;
     /* border-top: 1px solid rgb(37, 37, 37); */
     width: 40%;
@@ -361,6 +365,7 @@ hr{
 
 .timeline h2{
     text-align: center;
+    padding-bottom: 20px;
     
 }
 
@@ -370,7 +375,7 @@ hr{
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
-    height: 100%;
+    height: 550px;
     width: 2px;
     background-color: #444;
     
@@ -378,7 +383,7 @@ hr{
 
 .timeline-item {
     position: relative;
-    top: 20px;
+    top: 5px;
     margin-bottom: 40px;
     padding-left: 60px;
     width: 50%;
@@ -413,7 +418,7 @@ hr{
     padding: 5px 10px;
     border-radius: 12px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -424,6 +429,7 @@ h3 {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
+    padding-left: 10px;
 }
 
 .company {
@@ -435,6 +441,7 @@ p {
     margin-top: 10px;
     font-size: 14px;
     color: #bbb;
+    padding-left: 10px;
 }
 
 /* Clearfix for floating items */

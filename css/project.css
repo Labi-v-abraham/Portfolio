@@ -110,6 +110,13 @@ h1 span {
     text-decoration: none;
 }
 
+.project-section p {
+    font-size: 16px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    text-decoration: none;
+}
+
 .gallery {
     margin: 5px;
     /* border: 1px solid #ccc; */
