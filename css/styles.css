@@ -11,6 +11,7 @@ body {
     overflow: hidden;
 }
 
+
 .container {
     display: flex;
     align-items: center;
@@ -20,11 +21,12 @@ body {
 
 .left-section {
     flex: 1;
-    background-color: #FFC107;
+    background: linear-gradient(80deg, #FFC107 60%, #121212 60%);
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 .right-section {
@@ -36,6 +38,7 @@ body {
 
 .profile-image {
     border-radius: 10px;
+    margin-left: 60px;
     max-width: 100%;
     height: auto;
 }
@@ -47,7 +50,7 @@ h1 {
     font-weight: 800;
     text-transform: uppercase;
     font-family: Poppins, sans-serif;
-    padding-left: 70px;
+    padding-left: 20px;
     text-decoration: none;
 
 }

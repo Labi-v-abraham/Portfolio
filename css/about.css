@@ -228,6 +228,7 @@ hr{
 .skills-section {
     text-align: center;
     text-decoration: none;
+    padding-bottom: 30px;
 }
 
 .sh {
@@ -326,6 +327,34 @@ hr{
     height: 120px;
     border-radius: 50%;
     background: conic-gradient(#FFC107 0% 80%, #fff 85% 100%);
+  }
+  .outer-circle10 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#FFC107 0% 90%, #fff 85% 100%);
+  }
+  .outer-circle11 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#FFC107 0% 85%, #fff 85% 100%);
+  }
+  .outer-circle12 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#FFC107 0% 80%, #fff 85% 100%);
+  }
+  .outer-circle913{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#FFC107 0% 95%, #fff 85% 100%);
   }
 
   .inner-circle {
@@ -449,6 +478,32 @@ p {
     content: "";
     display: table;
     clear: both;
+}
+
+/* service */
+
+.service{
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.service .service-section h1{
+    text-transform: uppercase;
+}
+
+.service .service-section .stats{
+    left: 60px;
+    top: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    gap: 50px;
+    padding-bottom: 50px;
+
+}
+
+.service .service-section .stats h2{
+    font-size: 1.5em;
 }
 
 footer {
